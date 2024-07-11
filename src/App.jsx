@@ -1,7 +1,6 @@
 import Home from "./components/Home";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
-import { useState, useEffect } from "react";
 import { RouterProvider, useCurrentPath } from "./context/RouterContext";
 
 function App() {
