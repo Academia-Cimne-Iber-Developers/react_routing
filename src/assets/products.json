@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Logitech G Pro X Superlight",
+        "description": "Mouse Gamer",
+        "price": 149.99,
+        "image": "https://resource.logitechg.com/w_1600,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-1.png?v=1"
+    },
+    {
+        "id": 2,
+        "name": "Logitech G915 TKL",
+        "description": "Teclado Gamer",
+        "price": 129.99,
+        "image": "https://resource.logitechg.com/w_1600,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g915/g915-gallery/us-g915-wireless-gallery-topdown.png?v=1"
+    },
+    {
+        "id": 3,
+        "name": "Logitech G733",
+        "description": "Auriculares Gamer",
+        "price": 99.99,
+        "image": "https://resource.logitechg.com/w_1600,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g733/gallery/g733-black-gallery-1.png?v=1"
+    },
+    {
+        "id": 3,
+        "name": "Logitech G502 Hero",
+        "description": "Mouse Gamer",
+        "price": 79.99,
+        "image": "https://www.logitechg.com/content/dam/gaming/en/products/g502-hero/g502-hero-gallery-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Logitech G203 Lightsync",
+        "description": "Mouse Gamer",
+        "price": 39.99,
+        "image": "https://resource.logitechg.com/w_1600,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/refreshed-g203/g203-white-gallery-1.png?v=1"
+    }
+]

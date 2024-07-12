@@ -1,17 +1,23 @@
 export default function Navbar() {
     return (
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
-                <li>
-                    <a href="/products">Products</a>
-                </li>
-            </ul>
-        </nav>
+        <header>
+            <nav
+                className={"navbar"}
+                role="navigation"
+                aria-label="main navigation"
+            >
+                <div className="navbar-start">
+                    <a href="/" className="navbar-item">
+                        Home
+                    </a>
+                    <a href="/contact" className="navbar-item">
+                        Contact
+                    </a>
+                    <a href="/products" className="navbar-item">
+                        Products
+                    </a>
+                </div>
+            </nav>
+        </header>
     );
 }

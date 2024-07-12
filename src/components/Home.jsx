@@ -2,10 +2,10 @@ import Navbar from "./Navbar";
 
 export default function Home() {
     return (
-        <div>
+        <div className="container">
             <Navbar />
-            <div className="container">
-                <h1>Home</h1>
+            <div className="box">
+                <h1 className="title">Home</h1>
                 <p>Welcome to our website!</p>
             </div>
         </div>
