@@ -1,13 +1,12 @@
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import ProductCard from "./ProductCard";
-import data from "../assets/products.json";
+import data from "../../assets/products.json";
 
 export default function Products() {
     const products = data;
 
     return (
-        <div className="container">
-            <Navbar />
+        <div>
             <div className="box">
                 <h1 className="title">Products</h1>
                 <p>Check out our amazing products!</p>
