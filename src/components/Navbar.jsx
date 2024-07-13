@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 export default function Navbar() {
     return (
         <header>
@@ -7,15 +9,45 @@ export default function Navbar() {
                 aria-label="main navigation"
             >
                 <div className="navbar-start">
-                    <a href="/" className="navbar-item">
+                    <NavLink
+                        to="/"
+                        className={({ isActive, isPending, isTransitioning }) =>
+                            [
+                                isPending ? "pending" : "",
+                                isActive ? "has-text-primary" : "",
+                                isTransitioning ? "transitioning" : "",
+                            ].join(" navbar-item")
+                        }
+                    >
                         Home
-                    </a>
-                    <a href="/contact" className="navbar-item">
+                    </NavLink>
+                    <NavLink
+                        to="/contact"
+                        // style={({ isActive }) =>
+                        //     isActive ? { color: "red" } : {}
+                        // }
+                        className={({ isActive, isPending, isTransitioning }) =>
+                            [
+                                isPending ? "pending" : "",
+                                isActive ? "has-text-primary" : "",
+                                isTransitioning ? "transitioning" : "",
+                            ].join(" navbar-item")
+                        }
+                    >
                         Contact
-                    </a>
-                    <a href="/products" className="navbar-item">
+                    </NavLink>
+                    <NavLink
+                        to="/products"
+                        className={({ isActive, isPending, isTransitioning }) =>
+                            [
+                                isPending ? "pending" : "",
+                                isActive ? "has-text-primary" : "",
+                                isTransitioning ? "transitioning" : "",
+                            ].join(" navbar-item")
+                        }
+                    >
                         Products
-                    </a>
+                    </NavLink>
                 </div>
             </nav>
         </header>
